@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Oleo+Script:wght@400;700&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar{
+    background-color: black;
+    color: azure;
+    position: relative;
+}
+
+#navbarNav ul li{
+    color: azure;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.navbar-brand{
+    font-family: "Sour Gummy", sans-serif;
+    font-style: oblique;
+    padding-left: 50px;
+    justify-content: flex-start;
+    padding-right: 300px;
+}
+
+#my_name{
+    font-size: 22px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    width: 100%; /* Ensure it takes up full width for proper alignment */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Change link color to white */
+}
+
+.nav-item{
+    padding-left: 80px;
+}
+  
+  /* Optional: Hover effect for navbar links */
+.navbar-nav .nav-link:hover {
+    color: #ddd !important; /* Change color on hover */
+}
+
+.card{
+    margin: 3%;
+    background-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(19, 19, 19);
+}
+
+.card fieldset{
+    display: inline-flex;
+}
+
+.card fieldset .para{
+    padding-top: 70px ;
+    padding-left: 7%;
+    padding-right: 5%;
+}
+
+.card fieldset .para h1{
+    color: aqua;
+    font-family: "Oleo Script", serif;
+    font-size: 60px;
+}
+
+.card fieldset .para{
+    font-family: "Hind Guntur", serif;
+    font-size: 23px;
+    color: aliceblue;
+}
+
+.card fieldset .para a button{
+    border-radius: 45%;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(20, 231, 231);
+    border-width: 3px;
+}
+
+.card fieldset .para a button :hover{
+    color:rgb(0, 81, 255);
+}
+
+.images{
+    width: 45%;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+.logos{
+    padding-top: 5%;
+}
+
+.logos a{
+    padding-right: 35px;
+}
+
+.right{
+    padding-left: 7%;
+    font-size: 20px;
+}
+
+.left{
+    padding-left: 7%;
+    font-size: 20px;
+}
+
+.out{
+    padding-left: 45%;
+}
+
+.card fieldset .para pre{
+    font-family: "Vollkorn", serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.typing-container {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black; /* Blinking cursor effect */
+    width: fit-content;
+    animation: blinkCursor 0.7s infinite;
+  }
+
+
+  
+  /* Typing animation */
+  @keyframes typing {
+    0%, 100% { content: " "; }
+    10% { content: "F"; }
+    20% { content: "Fr"; }
+    30% { content: "Fro"; }
+    40% { content: "Front"; }
+    50% { content: "Front-End"; }
+    60% { content: "Front-End Web"; }
+    70% { content: "Front-End Web Developer"; }
+    80% { content: "Front-End Web Developer"; }
+    90% { content: " "; }
+  }
+  
+  /* Content Creator Animation */
+  @keyframes typing2 {
+    0%, 100% { content: " "; }
+    10% { content: "P"; }
+    20% { content: "Pyt"; }
+    30% { content: "Pyth"; }
+    40% { content: "Python"; }
+    50% { content: "Python P"; }
+    60% { content: "Python Pr"; }
+    70% { content: "Python Progr"; }
+    80% { content: "Python Program"; }
+    90% { content: "Python Programer"; }
+  }
+  
+  /* Alternate text animation */
+  .typing-text::after {
+    content: "";
+    display: inline-block;
+    animation: typing 4s steps(10) infinite alternate, typing2 4s steps(10) infinite alternate 4s;
+  }
+  
+  /* Cursor blink animation */
+  @keyframes blinkCursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .card_about{
+    margin: 3%;
+    background-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(19, 19, 19);
+}
+
+.about_type{
+    font-family: "Vollkorn", serif;
+}
+
+.contact_button button :hover{
+    color: rgb(0, 64, 255);
+}
